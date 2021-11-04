@@ -4,23 +4,70 @@
     font-size: normal;
 }
 
-body {
-    background:rgb(0, 15, 32);
-    font-family: DankMono;
-    font-weight: 100;
+header {
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 0;
 }
 
-h1 {
-    font-size: 60px;
-    color: whitesmoke;
-    font-weight: 400;
+nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 35px;
 }
 
 body, a {
+    background:rgb(0, 15, 32);
+    font-family: DankMono;
+    font-weight: 100;
     color: whitesmoke;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
+}
+
+h1 {
+    padding: 35px;
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 400;
+    display: inline
+
+}
+
+h2 {
+    margin: 300px 0;
+    padding: 30px;
+    font-size: 90px;
+    color: rgb(0, 15, 32);
+    font-weight: 400;
 }
 
 p {
     background: #000000;
     padding: 10px;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 0;
+    background: rgb(238, 238, 238);
+}
+
+footer {
+    margin: 0;
+    padding: 10px 0 20px 35px;
 }
