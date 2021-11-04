@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'DankMono';
+    src: url(../fonts/DankMono-Regular.ttf);
+    font-size: normal;
+}
+
+body {
+    background:rgb(0, 15, 32);
+    font-family: DankMono;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 60px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+body, a {
+    color: whitesmoke;
+}
+
+p {
+    background: #000000;
+    padding: 10px;
+}
